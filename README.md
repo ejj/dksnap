@@ -1,6 +1,4 @@
 # DKSnap
-**Docker Snapshots for Development and Test Data**
-
 [![Build Status](https://travis-ci.org/kelda/dksnap.svg?branch=master)](https://travis-ci.org/kelda/dksnap)
 [![Go Report Card](https://goreportcard.com/badge/github.com/kelda/dksnap)](https://goreportcard.com/report/github.com/kelda/dksnap)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
@@ -14,12 +12,11 @@
 
 **`dksnap` [creates](#create-snapshots), [views](#view-snapshots), and [runs](#replace-running-containers) snapshots of Docker containers.**
 
-When testing locally developers often use containers with *test data*. `dksnap`
-allows you to snapshot those containers at a good state, and roll back or
-forward as needed.
+When testing locally we often use containers with *test data*. `dksnap` allows
+you to snapshot those containers at a good state, and roll back or forward as
+needed.
 
-For a full description of why we built this, check out this
-[blogpost](https://kelda.io/todo).
+For a full description check out this [blogpost](https://kelda.io/todo).
 
 [<img src="https://kelda.io/img/dksnap/dksnap-demo3.gif" width="75%" >](https://youtu.be/fmYGfs632-g)
 
