@@ -25,8 +25,6 @@ forward as needed.
 For a full description of why we built this, check out this
 [blogpost](https://kelda.io/todo).
 
-<br/>
-
 [<img src="https://kelda.io/img/dksnap/dksnap-demo3.gif" width="85%" >](https://youtu.be/fmYGfs632-g)
 
 # Install
