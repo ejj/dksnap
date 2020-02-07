@@ -1,4 +1,5 @@
-# DKSnap <br/> Docker Snapshots for Development and Test Data
+# DKSnap
+**Docker Snapshots for Development and Test Data**
 
 [![Build Status](https://travis-ci.org/kelda/dksnap.svg?branch=master)](https://travis-ci.org/kelda/dksnap)
 [![Go Report Card](https://goreportcard.com/badge/github.com/kelda/dksnap)](https://goreportcard.com/report/github.com/kelda/dksnap)
