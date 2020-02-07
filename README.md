@@ -1,4 +1,4 @@
-# DKSnap
+# Dksnap
 [![Build Status](https://travis-ci.org/kelda/dksnap.svg?branch=master)](https://travis-ci.org/kelda/dksnap)
 [![Go Report Card](https://goreportcard.com/badge/github.com/kelda/dksnap)](https://goreportcard.com/report/github.com/kelda/dksnap)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
