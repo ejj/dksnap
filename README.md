@@ -10,7 +10,7 @@
 [Roadmap](#roadmap)&nbsp;&nbsp;|&nbsp;&nbsp;
 [Contributing](#contributing)<br/>
 
-###`dksnap` [creates](#create-snapshots), [views](#view-snapshots), and [runs](#replace-running-containers) snapshots of Docker containers.
+### `dksnap` [creates](#create-snapshots), [views](#view-snapshots), and [runs](#replace-running-containers) snapshots of Docker containers.
 When testing locally we often use containers with *test data*. `dksnap` allows
 you to snapshot those containers at a good state, and roll back or forward as
 needed.
