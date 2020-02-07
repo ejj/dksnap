@@ -48,13 +48,15 @@ dksnap
 # Key Features
 
 ## Create Snapshots
+<img src="https://kelda.io/img/dksnap/create-snapshot.png" width="450" height="100%">
+
 Create a snapshot of any running Docker container. `dksnap` works with any
 container, but has extra features for select databases.
 * Snapshots are volume aware.  They will capture data in volumes as well as in
   the container image.
 * Snapshots are database aware.  When snapshotting databases that implement the
-  [plugin interface](./pkg/snapshot/types.go), `dksnap` will politely ask the database process to
-  dump its contents before creating a Docker image.
+  [plugin interface](./pkg/snapshot/types.go), `dksnap` will politely ask the
+  database process to dump its contents before creating a Docker image.
 
 ## View Snapshots
 <img src="https://kelda.io/img/dksnap/diff.png" width="450" height="100%">
@@ -63,6 +65,8 @@ container, but has extra features for select databases.
 snapshots along with diffs showing how they've changed over time.
 
 ## Replace Running Containers
+<img src="https://kelda.io/img/dksnap/replace-snapshot.gif" width="450" height="100%">
+
 Replace a running Docker container with a snapshot taken in the past.  `dksnap`
 will automatically shut down the running container, boot the snapshot image,
 and restart the container using the same Docker command arguments.
@@ -115,9 +119,6 @@ makes them fully compatible with all of the things you would normally do with
 an image (run, push, delete, etc). You could handcraft Docker images to mimic
 `dksnap` snapshots, but `dksnap` makes it easy to create them from running
 containers.
-
-####  Does `dksnap` capture CPU and RAM?
-Not currently -- it's on the roadmap.  Let us know if this would be useful.
 
 # Roadmap
 * Automated snapshot creation from production and staging databases in CI.
