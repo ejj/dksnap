@@ -27,7 +27,7 @@ For a full description of why we built this, check out this
 
 <br/>
 
-[<img src="https://kelda.io/img/dksnap/dksnap-demo3.gif" width="80%" >](https://youtu.be/fmYGfs632-g)
+[<img src="https://kelda.io/img/dksnap/dksnap-demo3.gif" width="85%" >](https://youtu.be/fmYGfs632-g)
 
 # Install
 Install on MacOS or Linux:
